@@ -1,5 +1,6 @@
 .layout {
     display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 
@@ -15,7 +16,7 @@
 
 .layout__card-list {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     padding: 2rem 1rem;
 }
 
