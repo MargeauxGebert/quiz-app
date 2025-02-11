@@ -1,0 +1,20 @@
+.layout {
+    display: grid;
+}
+
+
+.layout__heading {
+  background-color: var(--sweet-syrup);
+  color: var(--creamer);
+  height: 8rem;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  z-index: 1;
+}
+
+.layout__card-list {
+    display: grid;
+    gap: 1rem;
+}
+

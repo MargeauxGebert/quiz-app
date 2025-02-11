@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  /* color variables */
+  --sweet-syrup: #bf73d8;
+  --blueberries: #3c6297;
+  --lemon-glaze: #d69b03;
+  --creamer: #e9d6b1;
+  --dark-roast: #4d321e;
+}
+
+body {
+  background-color: var(--blueberries);
+  color: var(--dark-roast);
+  font-family: Noto Sans;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
