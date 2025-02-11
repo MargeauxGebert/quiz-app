@@ -6,6 +6,11 @@
   --light-beige: #f8f2d5;
   --dark-green: #454a2a;
   --lovely-yellow: #f1b23e;
+  --fall-red: #c45930;
+  --dusty-rose: #edc190;
+
+  /* unit variables */
+  --bookmark-position: -2rem;
 }
 
 * {
@@ -45,19 +50,51 @@ body {
 
 .question-card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  flex-flow: column;
   background-color: var(--subtle-green);
   height: 250px;
-  border-radius: 5%;
-  padding: 1rem;
+  border-radius: 10px;
+  padding: 2rem;
+  line-height: 1.5rem;
+  color: var(--light-beige);
 }
 
 .question-button {
-background-color: var(--dark-green);
-color: var(--subtle-green);
-border: none;
-height: 2rem;
-width: ;
+  background-color: var(--dusty-rose);
+  color: var(--dark-green);
+  border: none;
+  height: 2rem;
+  width: 50%;
+  font-size: 0.7rem;
+  font-weight: 600;
 }
+
+.question-button:hover {
+  color: var(--light-beige);
+}
+
+/* .question-button:active {
+  
+}
+
+.card-bookmark {
+  align-self: ;
+  transform: scale(2);
+  top: -0.1rem;
+  right: 1rem;
+} */
+
+.bookmark {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+}
+
+/* .answer-card {
+
+}
+.answer {
+ 
+} */
