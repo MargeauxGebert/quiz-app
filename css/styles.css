@@ -1,0 +1,27 @@
+:root {
+  /* color variables */
+  --subtle-green: #9ba67b;
+  --light-beige: #f8f2d5;
+  --dark-green: #454a2a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Noto Sans;
+  background-color: var(--light-beige);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--subtle-green);
+  font-size: 1.rem;
+  height: 5rem;
+  color:var(--dark-green) ;
+}
