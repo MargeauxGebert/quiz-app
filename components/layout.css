@@ -1,22 +1,28 @@
 .layout {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
-
 
 .layout__heading {
   background-color: var(--sweet-syrup);
   color: var(--creamer);
-  height: 8rem;
-  padding: 1rem;
+  height: 7rem;
+  padding: 0.7rem;
   text-align: center;
   position: sticky;
   z-index: 1;
+  top: 0;
 }
 
 .layout__card-list {
-    display: grid;
-    gap: 2rem;
-    padding: 2rem 1rem;
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 1rem;
 }
 
+.layout__footer {
+  background-color: var(--sweet-syrup);
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+}
