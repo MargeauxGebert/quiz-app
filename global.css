@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: Noto Sans;
+  src: url(./font/NotoSans.ttf);
+}
 
 * {
   box-sizing: border-box;
@@ -21,6 +24,6 @@ body {
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
