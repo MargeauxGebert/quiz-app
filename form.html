@@ -5,25 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Your Own Cards</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./js/form.js" defer></script>
   </head>
   <body>
     <header class="layout__heading">
-      <h1>You need more?<br>Here you go!</h1>
+      <h1>You need more?<br />Here you go!</h1>
     </header>
     <main class="layout__main">
-        <form class="layout__form">
-            <label for="question">Your question:</label>
-            <textarea class="form__text" name="" id="question" maxlength="150"></textarea>
+      <form class="layout__form" data-js="form-create-card">
+        <label for="question">Your question:</label>
+        <textarea
+          class="form__text"
+          name="question-input"
+          id="question"
+          maxlength="150"
+          required
+        ></textarea>
 
-            <label for="answer">Your answer:</label>
-            <textarea class="form__text" name="" id="answer" maxlength="150"></textarea>
+        <label for="answer">Your answer:</label>
+        <textarea
+          class="form__text"
+          name="answer-input"
+          id="answer"
+          maxlength="150"
+          required
+        ></textarea>
 
-            <label for="tag">Tag:</label>
-            <input class="form__input" type="text" id="tag">
+        <label for="tag">Tag:</label>
+        <input class="form__input" type="text" id="tag" />
 
-            <button class="form__create-button" type="submit">Create new Card</button>
-        </form>
-
+        <button
+          class="form__create-button"
+          type="submit"
+          data-js="button-create-card"
+        >
+          Create new Card
+        </button>
+      </form>
+      <ul class="layout__card-list" data-js="card-list"></ul>
     </main>
     <nav class="layout__footer">
       <ul class="footer">
@@ -67,7 +86,27 @@
           </a>
         </li>
         <li class="footer__item">
-          <a class="footer__link footer__link--active" href="/">
+            <a class="footer__link footer__link--active" href="/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-square-plus"
+              >
+                <rect width="18" height="18" x="3" y="3" rx="2" />
+                <path d="M8 12h8" />
+                <path d="M12 8v8" />
+              </svg>
+            </a>
+          </li>
+        <li class="footer__item">
+          <a class="footer__link" href="./profile.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
