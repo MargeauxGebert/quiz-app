@@ -13,10 +13,22 @@ const svgDarkMode = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="
 
 buttonDarkLightMode.addEventListener("click", () => {
   buttonDarkLightMode.classList.toggle("light");
+  const profileHeader = getELement("profile-header");
+  const profileDiv = getELement("profile-div");
+  const profileName = getELement("profile-name");
+  const profileFooter = getELement("profile-footer");
 
   if (buttonDarkLightMode.classList.contains("light") === true) {
     buttonDarkLightMode.innerHTML = svgLightMode;
+    profileHeader.classList.add("dark");
+    profileDiv.classList.add("dark");
+    profileName.classList.add("dark");
+    profileFooter.classList.add("dark");
   } else {
     buttonDarkLightMode.innerHTML = svgDarkMode;
+    profileHeader.classList.remove("dark");
+    profileDiv.classList.remove("dark");
+    profileName.classList.remove("dark");
+    profileFooter.classList.remove("dark");
   }
 });

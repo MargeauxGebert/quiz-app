@@ -8,14 +8,14 @@
     <script src="./js/profile.js" defer></script>
   </head>
   <body>
-    <header class="layout__heading">
+    <header class="layout__heading" data-js="profile-header">
       <h1>Nice to meet you, Gilmore Girl</h1>
     </header>
     <main class="layout__main">
       <section class="profile">
         <img src="./images/profile-pic.jpg" class="profile__image" alt="" />
-        <div class="profile__text" data-js="profile">
-          <p class="profile__name">Margeaux</p>
+        <div class="profile__text" data-js="profile-div" data-js="profile">
+          <p class="profile__name" data-js="profile-name">Margeaux</p>
           <p class="profile__level">Level Expert</p>
           <button
             type="button"
@@ -40,7 +40,7 @@
         </div>
       </section>
     </main>
-    <nav class="layout__footer">
+    <nav class="layout__footer" data-js="profile-footer">
       <ul class="footer">
         <li class="footer__item">
           <a class="footer__link" href="./index.html"
