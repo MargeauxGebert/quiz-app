@@ -1,0 +1,28 @@
+.profile {
+  display: grid;
+  width: 100%;
+  padding: 2rem;
+  place-content: center;
+}
+
+.profile__image {
+  height: 10rem;
+  border-radius: 10px;
+  place-self: center;
+  border: 3px solid var(--lemon-glaze);
+}
+
+.profile__name {
+  color: var(--lemon-glaze);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-top: 2rem;
+}
+
+.profile__level {
+  color: var(--sweet-syrup);
+  font-size: 1rem;
+  padding-top: 1rem;
+  font-weight: 200;
+}
