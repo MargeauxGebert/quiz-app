@@ -16,7 +16,10 @@
   --creamer: #e9d6b1;
   --dark-roast: #4d321e;
 
-  
+  /* dark color variables */
+  --darksweet-syrup: #5a1f70;
+  --darkblueberries: #1d2f49;
+  --darklemon-glaze: #CA9102;
 }
 
 body {

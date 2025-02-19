@@ -52,8 +52,17 @@
   fill: currentColor; 
 }
 
-.button__lightmode-icon {
+.light {
+  background-color: var(--lemon-glaze);
+}
+
+.icon__lightmode {
   height: 15px;
   color: var(--sweet-syrup);
   fill: currentColor;
 }
+
+ .dark {
+  background-color: var(--darksweet-syrup);
+  color: var(--creamer);
+ }
