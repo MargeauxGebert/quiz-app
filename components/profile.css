@@ -3,6 +3,7 @@
   width: 100%;
   padding: 2rem;
   place-content: center;
+  
 }
 
 .profile__image {
@@ -12,17 +13,47 @@
   border: 3px solid var(--lemon-glaze);
 }
 
+.profile__text {
+  display: grid;
+  background-color: var(--creamer);
+  margin-top: 1rem;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
 .profile__name {
   color: var(--lemon-glaze);
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  padding-top: 2rem;
 }
 
 .profile__level {
   color: var(--sweet-syrup);
   font-size: 1rem;
-  padding-top: 1rem;
-  font-weight: 200;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.button__darkmode {
+  width: 40px;
+  height: 20px;
+  padding-top: 2px;
+  justify-self: end;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--blueberries);
+}
+
+.button__darkmode-icon {
+  height: 15px;
+  color: var(--lemon-glaze);
+  fill: currentColor; 
+}
+
+.button__lightmode-icon {
+  height: 15px;
+  color: var(--sweet-syrup);
+  fill: currentColor;
 }

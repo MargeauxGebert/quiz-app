@@ -3,17 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bookmarks</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header class="layout__heading">
       <h1>Nice to meet you, Gilmore Girl</h1>
     </header>
-    <main class="profile layout__main">
-      <img src="./images/profile-pic.jpg" class="profile__image" alt="" />
-      <p class="profile__name">Margeaux</p>
-      <p class="profile__level">Level Expert </p>
+    <main class="layout__main">
+      <section class="profile">
+        <img src="./images/profile-pic.jpg" class="profile__image" alt="" />
+        <div class="profile__text">
+          <p class="profile__name">Margeaux</p>
+          <p class="profile__level">Level Expert</p>
+          <button type="button" class="button__darkmode" data-js="darkmode">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="button__darkmode-icon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+          </button>
+        </div>
+      </section>
     </main>
     <nav class="layout__footer">
       <ul class="footer">
