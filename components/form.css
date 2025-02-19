@@ -1,0 +1,35 @@
+.form__text {
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  height: 7rem;
+  color: var(--dark-roast);
+  background-color: var(--creamer);
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.form__input {
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+  color: var(--dark-roast);
+  background-color: var(--creamer);
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+}
+
+.form__create-button {
+  width: 50%;
+  justify-self: center;
+  background-color: var(--lemon-glaze);
+  border: none;
+  border-radius: 8px;
+  height: 2rem;
+  color: var(--creamer);
+  font-weight: 500;
+}
+
+.form__create-button:hover {
+  background-color: var(--sweet-syrup);
+  font-weight: 700;
+}

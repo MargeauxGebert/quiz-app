@@ -20,6 +20,13 @@
   padding: 2rem 1rem;
 }
 
+.layout__form {
+  display: grid;
+  padding: 2rem 1rem;
+  color: var(--creamer);
+  font-weight: 300;
+}
+
 .layout__footer {
   background-color: var(--sweet-syrup);
   position: fixed;
