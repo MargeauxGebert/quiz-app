@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Document</title>
+    <script src="./js/index.js" defer></script>
+    <title>Gilmore Girl Quiz</title>
   </head>
   <body class="layout">
     <header class="layout__heading">
@@ -17,11 +18,12 @@
             <h2 class="card__question">
               What is the name of the fictional town where Gilmore Girls is set?
             </h2>
-            <button class="card__button">Show Answer</button>
-            <span class="card__answer">Stars Hollow</span>
-            <button class="card__bookmark">
+            <button class="card__button" data-js="answer-button">Show Answer</button>
+            <span class="card__answer" data-js="answer">Stars Hollow</span>
+            <button type="button" class="card__bookmark" data-js="card-bookmark">
               <svg
                 class="card__bookmark-icon"
+                data-js="card-bookmark-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -45,14 +47,14 @@
               Who are the two main characters in Gilmore Girls, known for their
               rapid-fire and witty dialogue?
             </h2>
-            <button class="card__button">Hide Answer</button>
-            <span class="card__answer card__answer--visible"
+            <button class="card__button">Show Answer</button>
+            <span class="card__answer "
               >Lorelai Gilmore and <br />
               Rory Gilmore</span
             >
             <button class="card__bookmark">
               <svg
-                class="card__bookmark-icon card__bookmark-icon--active"
+                class="card__bookmark-icon "
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -79,7 +81,7 @@
             <span class="card__answer">Richard and Emily Gilmore</span>
             <button class="card__bookmark">
               <svg
-                class="card__bookmark-icon card__bookmark-icon--active"
+                class="card__bookmark-icon "
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -103,8 +105,8 @@
               What is the name of the inn that Lorelai and Sookie run in Stars
               Hollow?
             </h2>
-            <button class="card__button">Hide Answer</button>
-            <span class="card__answer card__answer--visible"
+            <button class="card__button">Show Answer</button>
+            <span class="card__answer "
               >The Dragonfly Inn</span
             >
             <button class="card__bookmark">
